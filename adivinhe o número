@@ -1,0 +1,8 @@
+print('***********************\n* Jogo de Adivinhação *\n***********************')
+import random
+chute = int(input('Digite o seu número aqui:\n'))
+print('Você digitou: ',chute)
+if((random.randint(1,5)) == chute):
+    print('Você acertou!')
+else:
+    print('Você errou!')
